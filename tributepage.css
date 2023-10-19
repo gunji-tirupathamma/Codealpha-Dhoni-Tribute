@@ -1,0 +1,117 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjhuTsf1aSgLRTsjH3ghzCLPsQFiZiaMO9MrDe4kcSs4mmuGtEUUy2Koaw8TH4vRwlMr4&usqp=CAU");
+    background-size: cover;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    width: 70%;
+    align-self: center;
+    margin-left: 200px;
+}
+.cricketer{
+    font-size: 1.5em;
+
+}
+img{
+    height: 500px;
+    width: 60%;
+    align-self: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 8px #888888;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;    
+    align-self: center;
+    width: 70%;
+}
+h1{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+h1:hover{
+    transform: scale(1.05);
+}
+h2{
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 2em;
+    font-family: italic;
+}
+
+h4{
+    font-size: 1.3em;
+}
+p{
+    font-size: 18px;
+    font-family: Roboto;
+}
+b{
+    font-size: 20px;
+}
+
+li{
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.quatecontainer{
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaztwFsDURIxa4JHUohQRF453s7aevExwFvfd1RDur2M9Yv2C2RWvYwtN1pR2WL37C_XM&usqp=CAU");
+   background-size: cover;
+   width: 60%;
+   align-self: center;
+   margin-top: 40px;
+   border-radius: 10px;
+   transform: rotateY(30deg) rotateX(20deg);
+   position: relative;
+}
+.quatecontainer:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 8px #888888;
+}
+.quatecontainer h5{
+    font-size: 1.3em;
+}
+.quatecontainer p{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 767px){
+    .container{
+      width: 100%;
+      align-self: start;     
+      margin-left: 10px;
+    }
+    img{
+        height: 300px;
+    }
+    h1{
+        font-family: italic;        
+    }
+    h2{
+        font-size: 1.7em;
+    }
+    h3{
+        font-size: 1.7em;
+    }
+    p{
+        font-size: 16px;
+    }
+    li{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 1.15em;
+    }
+}
