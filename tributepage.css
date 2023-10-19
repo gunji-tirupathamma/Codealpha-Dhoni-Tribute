@@ -114,4 +114,11 @@ li{
     h4{
         font-size: 1.15em;
     }
+    .text-container{
+        text-align: left;
+        width: 100%;
+    }
+    .quatecontainer{
+        width:100%;
+    }
 }
